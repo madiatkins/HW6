@@ -152,10 +152,15 @@ names_and_productivities = [(stud.name, prod_list[programmers.index(stud)]) for 
 print("\n\n***** Problem 8 *****")
 # Use the Python filter function to select the subset of programmers who have names with 5 or more characters. (i.e. ["Albert","Dinesh","Euijin"]) Your result should be an filter object that points to Student instances. Save that filter iterator in a variable called long_names.
 
+long_names = filter((lambda x: len(x.name) > 4), programmers)
+
+
 
 
 ## Then write code to cast the value of long_names to a list and save it in the variable long_names_list. 
 
+
+long_names_list = list(long_names)
 
 
 ## [PROBLEM 9]
