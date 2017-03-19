@@ -61,7 +61,10 @@ print("\n\n***** Problem 2 *****")
 
 
 def personal_map(object, list):
-    pass
+	lst = []
+	for item in list:
+		lst.append(object(item))
+	return lst
 
 
 
