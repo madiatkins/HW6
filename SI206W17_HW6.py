@@ -170,7 +170,7 @@ print("\n\n***** Problem 9 *****")
 
 ## Note that you can use another list you have already created for this problem.
 
-
+names_with_not_too_much_seniority = [stud.name for stud in programmers if (len(stud.name) > stud.years_UM)]
 
 
 ## [PROBLEM 10]
